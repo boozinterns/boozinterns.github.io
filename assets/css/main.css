@@ -39,7 +39,7 @@
 		content: none;
 	}
 
-	table {
+	table color
 		border-collapse: collapse;
 		border-spacing: 0;
 	}
@@ -1639,6 +1639,7 @@
 
 /* Type */
 
+/*title font code*/
 	body, input, select, textarea {
 		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -1673,9 +1674,10 @@
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
+/*text boxes on home page*/
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #d96459 !important;
 		}
 
 	strong, b {
