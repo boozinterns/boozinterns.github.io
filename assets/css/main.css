@@ -2732,15 +2732,15 @@
 					}
 /*box colors*/
 			.tiles article.style1 > .image:before {
-				background-color: #d96459;
+				background-color: #ff0000;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #f2e394;
+				background-color: #ffff00;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #f2ae73;
+				background-color: #ffa500;
 			}
 
 
