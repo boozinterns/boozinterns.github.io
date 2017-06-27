@@ -1903,7 +1903,7 @@
 			}
 
 			.icon.style2:active {
-				background-color: #e76155;
+				background-color: rgb(231, 97, 85);
 			}
 
 /* List */
@@ -2730,15 +2730,15 @@
 					}
 /*box colors*/
 			.tiles article.style1 > .image:before {
-				background-color: #e76155;
+				background-color: #73ccff;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #ffffff;
+				background-color: #73ccff;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #ffffff;
+				background-color: #73ccff;
 			}
 
 
