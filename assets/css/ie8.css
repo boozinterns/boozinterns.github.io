@@ -53,7 +53,7 @@
 	#header nav ul li a[href="#menu"] {
 		text-indent: 0;
 		width: auto;
-		font-size: 1em;
+		font-size: .8em;
 	}
 
 		#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
