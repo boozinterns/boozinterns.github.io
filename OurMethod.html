@@ -56,12 +56,12 @@
 							<p>The project occurred in stages including data cleaning, analysis, visualization creation, website development, and solutions research.</p>
 							<p>  </p>
 							<p><b>Data Cleaning</b></p>
-							<p><b>BLS Data</b>: The team combined the necessary data files and then split the resulting huge file into logical separators (Rates, Absolute Case Counts, and Median Days off). Using the smaller files, they were then able to decode the data and further split the smaller files into even smaller ones (by value type) to ease loading times. Finally, the team converted all the data from long format into wide format—wide format saves space by eliminating repetitive information found in long format.</p>
-							<p><b>Federal Agency Data</b>: The team combined two datasets that showed LTCR and employee engagement scores to come up with a list of agencies that had recorded numbers for each of those categories. This resulted in a list of 61 agencies.</p>
-							<p><b>OSHA Data</b>: The team--- </p>
+							<p>BLS Data: The team combined the necessary data files and then split the resulting huge file into logical separators (Rates, Absolute Case Counts, and Median Days off). Using the smaller files, they were then able to decode the data and further split the smaller files into even smaller ones (by value type) to ease loading times. Finally, the team converted all the data from long format into wide format—wide format saves space by eliminating repetitive information found in long format.</p>
+							<p>Federal Agency Data: The team combined two datasets that showed LTCR and employee engagement scores to come up with a list of agencies that had recorded numbers for each of those categories. This resulted in a list of 61 agencies.</p>
 							<p>  </p>
 							<p><b>Analysis</b></p>
-							<p>During the analysis stage, the federal agency data was used to create a predictive model.---</p>
+							<p>During the analysis stage, the federal agency data was used to create a predictive model. To find the best predictive model, five initial models were created. These were the decision tree, conditional inference tree, random forest tree, extreme gradient boosted tree using grid search, and extreme gradient boosted tree using random search. These are all tree based models that work to find the best way to split the data. The splitting method differs by each algorithm, but all work to optimize a certain parameter. To choose which model worked the best, five-fold cross validation was used. After splitting the data into training and testing data, each model was trained on the training data and was compared to the testing data. The random forest tree model had the smallest mean squared error. This means that this model had the smallest error between what the model predicted and the actual outcome of the data. Therefore, the random forest tree model was used as our prediction tool.
+							</p>
 							<p>  </p>
 							<p><b>Visualization</b></p>
 							<p>The team created interactive interfaces in order for users to quickly scan, analyze, and predict trends. There are four main applications, which can all be accessed from the team's website.</p>
@@ -74,6 +74,9 @@
 							<p>This website was created to showcase the visualizations. The goal is that this tool will make it easier to transition this project from the Summer Games program to the OSH CoP full time staff.</p>
 							<p>  </p>
 							<p><b>Solutions Research</b></p>
+							<p>In order to do more than just predict injury rates, the team added an engineering and management solutions aspect to the project.</p>
+							<p>The engineering solutions are a series of tangible products that can be implemented in the workplace. These products are additions to potentially hazardous pieces of equipment. The team found these solutions by studying academic research on workplace safey, analyzing industry practices, and discussing potential improvements in workplace procedures with safety professionals at Booz Allen.</p>
+							<p>The management solutions are a series of best practices, attained by conducting a root cause analysis. The team found federal agency leaders - those with the lowest LTCR - and interviewed members of those organizations to see what common practices resulted in better engagement scores and lower injury rates.</p>
 						</div>
 					</div>
 
